@@ -32,10 +32,24 @@
                             <a href="#/about" class="nav-link">O nas</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#/contact" class="nav-link">Napisz do nas</a>
+                            <a href="#/contact" class="nav-link">Kontakt</a>
                         </li>
                         <li class="nav-item">
-                            <router-link to="/policy" class="nav-link">Polityka prywatności</router-link>
+                            <router-link to="/policy" class="nav-link">Polityka</router-link>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-icon" href="https://www.facebook.com/duolegal" target="_blank" rel="noopener"
+                            data-toggle="tooltip" title="Like us on Facebook">
+                                <i class="fa fa-facebook-square"></i>
+                                <span class="nav-link-inner--text d-lg-none">Facebook</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link nav-link-icon" href="https://instagram.com/duolegal" target="_blank" rel="noopener"
+                            data-toggle="tooltip" title="Follow us on Instagram">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                                <span class="nav-link-inner--text d-lg-none">Instagram</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
