@@ -3,31 +3,49 @@
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6">
-                        <div class="card bg-default shadow border-0">
+                        <div class="card shadow border-0">
                             <img v-lazy="'img/theme/law.jpg'" class="card-img-top">
-                            <blockquote class="card-blockquote">
+                            <blockquote class="card-blockquote duolegal_bgcolor">
                                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
                                      class="svg-bg">
-                                    <polygon points="0,52 583,95 0,95" class="fill-default"></polygon>
-                                    <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-default"></polygon>
+                                    <polygon points="0,52 583,95 0,95" class="duolegal_fillcolor"></polygon>
+                                    <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="duolegal_fillcolor"></polygon>
                                 </svg>
-                                <h4 class="display-3 font-weight-bold text-white">Usługi prawne</h4>
-                                <p class="lead text-italic text-white">The Arctic Ocean freezes every winter and much of
-                                    the sea-ice then thaws every summer, and that process will continue whatever
-                                    happens.</p>
+                                <blockquote class="blockquote text-white">
+                                    <p class="mb-0">&bdquo;Jeśli jest w ogóle jakiś sekret sukcesu, leży on w umiejętności przyjęcia punktu widzenia innych i patrzeniu na rzeczy zarówno z pozycji rozmówcy, jak i własnej.&ldquo;</p>
+                                    <footer class="blockquote-footer">Henry Ford</footer>
+                                </blockquote>
                             </blockquote>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="pl-md-5">
-                            <icon name="ni ni-briefcase-24" class="mb-5" size="lg" type="primary" shadow rounded></icon>
-
-                            <h3>O nas</h3>
-                            <p class="lead">Don't let your uses guess by attaching tooltips and popoves to any element.
-                                Just make sure you enable them first via JavaScript.</p>
-                            <p>Najpiękniejszej Siadł Najpiękniejszego Kazał szafie jezior Rzeczypospolitej. Lasy Bogu razu Białopiotrowiczem owad. Jedni kąty Białopiotrowiczowi Ślad wybor osoby domie Spór.</p>
-                            <p>Najpiękniejszej Siadł Najpiękniejszego Kazał szafie jezior Rzeczypospolitej. Lasy Bogu razu Białopiotrowiczem owad. Jedni kąty Białopiotrowiczowi Ślad wybor osoby domie Spór.</p>
-                            <a href="#/about" class="font-weight-bold text-primary mt-5">Więcej</a>
+                            <span class="duolegal_color ">
+                                <icon type="duo" name="ni ni-briefcase-24" class="mb-5 duolegal_grey_bgcolor" size="lg" shadow rounded></icon>
+                            </span>
+                            <ul class="list-unstyled">
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge circle type="duo" class="mr-3" icon="ni ni-check-bold"></badge>
+                                        <h6 class="mb-0">Dokładność</h6> <br/>
+                                    </div>
+                                    <p>Cechuje nas skrupulatność i precyzja w działaniu, a każdy krok podejmowany na rzecz klienta poprzedzony jest dogłębną analizą konkretnego przypadku.</p>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge circle type="duo" class="mr-3" icon="ni ni-check-bold"></badge>
+                                        <h6 class="mb-0">Umiejętności</h6> <br/>
+                                    </div>
+                                    <p>Kancelarię tworzy zespół profesjonalistów – prawników, posiadających gruntowną wiedzę i doświadczenie, w szczególności z zakresu prawa cywilnego, w tym gospodarczego, handlowego oraz karnego.</p>
+                                </li>
+                                <li class="py-2">
+                                    <div class="d-flex align-items-center">
+                                        <badge circle type="duo" class="mr-3" icon="ni ni-check-bold"></badge>
+                                        <h6 class="mb-0">Ofensywa</h6> <br/>
+                                    </div>
+                                    <p>Działania prowadzone na rzecz klientów kancelarii prowadzone są z największą  determinacją, z uwzględnieniem indywidualnych interesów klienta.</p>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -38,4 +56,19 @@
 export default {};
 </script>
 <style>
+.duolegal_color{
+    color: rgb(194, 60, 143);
+}
+
+.duolegal_bgcolor{
+    background-color: rgb(194, 60, 143);
+}
+
+.duolegal_grey_bgcolor{
+    background-color: #dee2e6;
+}
+
+.duolegal_fillcolor{
+    fill: rgb(194, 60, 143);
+} 
 </style>

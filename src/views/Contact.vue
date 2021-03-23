@@ -42,22 +42,36 @@
                         <card gradient="secondary" shadow body-classes="p-lg-5">
                             <h4 class="mb-1">Masz pytanie?</h4>
                             <p class="mt-0">Pomożemy Ci w każdej sprawie.</p>
-                            <base-input class="mt-5"
-                                        alternative
-                                        placeholder="Twoje imię"
-                                        addon-left-icon="ni ni-circle-08">
-                            </base-input>
-                            <base-input alternative
-                                        placeholder="Twój email"
-                                        addon-left-icon="ni ni-email-83">
-                            </base-input>
+                            <form action="mailto:office@duolegal.com?subject=Pytanie duolegal.pl" method="post" enctype="text/plain">
+                            <div class="form-group mt-5">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">
+                                            <i class="ni ni-circle-08" aria-hidden="true"/>
+                                        </span>
+                                    </div>
+                                    <input type="text" name="name" class="form-control" placeholder="Twoje imię" aria-label="Username" aria-describedby="basic-addon1">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon2">
+                                            <i class="ni ni-email-83" aria-hidden="true"/>
+                                        </span>
+                                    </div>
+                                    <input type="text" name="mail" class="form-control" placeholder="Twój email" aria-label="mail" aria-describedby="basic-addon2">
+                                </div>
+                            </div>
                             <base-input class="mb-4">
-                                    <textarea class="form-control form-control-alternative" name="name" rows="4"
+                                    <textarea class="form-control form-control-alternative" name="comment" rows="4"
                                               cols="80" placeholder="Napisz wiadomość..."></textarea>
                             </base-input>
-                            <base-button type="default" round block size="lg">
+                            <base-button nativeType="submit" type="default" value="Send" round block size="lg">
                                 Wyślij wiadomość
                             </base-button>
+                            
+                            </form>
                         </card>
                     </div>
                 </div>

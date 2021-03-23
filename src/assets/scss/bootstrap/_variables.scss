@@ -38,6 +38,7 @@ $grays: map-merge(
 );
 
 
+$douprim: #c23c8f !default;
 $blue:    #007bff !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
@@ -53,6 +54,7 @@ $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $colors: map-merge(
   (
+    "douprim":    $douprim,
     "blue":       $blue,
     "indigo":     $indigo,
     "purple":     $purple,
@@ -70,6 +72,7 @@ $colors: map-merge(
   $colors
 );
 
+$duo:           $douprim !default;
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
@@ -83,6 +86,7 @@ $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $theme-colors: map-merge(
   (
+    "duo":        $duo,
     "primary":    $primary,
     "secondary":  $secondary,
     "success":    $success,
