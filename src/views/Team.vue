@@ -20,8 +20,6 @@
                 <div class="col px-0">
                     <div class="row">
                         <div class="col-lg-8">
-                            <h1 class="display-3  text-white">Wspólnicy
-                            </h1>
                             <blockquote class="blockquote text-white">
                                 <p class="h5 mb-0 text-white">&bdquo;Jeśli jest w ogóle jakiś sekret sukcesu, leży on w umiejętności przyjęcia punktu widzenia innych i patrzeniu na rzeczy zarówno z pozycji rozmówcy, jak i własnej.&ldquo;</p>
                                 <footer class="blockquote-footer">Henry Ford</footer>

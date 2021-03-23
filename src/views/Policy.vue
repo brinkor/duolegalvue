@@ -20,26 +20,59 @@
                 <div class="col px-0">
                     <div class="row">
                         <div class="col-lg-6">
-                            <h1 class="display-3  text-white">Polityka prywatności</h1>
-                            <p class="lead  text-white">Cosby sweater eu banh mi, qui irure terry richardson ex
-                            squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan
-                            american apparel, butcher voluptate nisi qui.</p>
+                            <h1 class="display-3  text-white">Nasza polityka prywatności</h1>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- 1st Hero Variation -->
-        
             <section class="section section-lg pt-lg-0 mt--200">
                 <div class="container">
                     <div class="row justify-content-center">
                         <card class="border-0" shadow body-classes="py-5">
-                            <h6 class="text-primary text-uppercase">Polityka prywatności</h6>
-                            <p class="description mt-3">Niniejsza Polityka Prywatności określa zasady przetwarzania i ochrony danych osobowych Użytkowników Serwisu w związku z danymi przekazywanymi przez Użytkowników Serwisu (w szczególności w związku z wysyłaniem maili przez Użytkowników do Administratora, jak też zapytań za pomocą formularza dostępnego na stronie Serwisu) oraz w związku z korzystaniem przez Użytkowników z funkcjonalności Serwisu.</p>
-                            <h6 class="text-primary text-uppercase">Definicje</h6>
-                            <p class="description mt-3">Wszelkie użyte w Polityce Prywatności wyrażenia i zwroty rozpoczynające się wielką literą, mają następujące znaczenie: Administrator – spółka Kancelaria Prawna Skarbiec PLUS Robert Nogacki spółka komandytowa, adres: ul. Maciejki 13, 02-181 Warszawa, wpisana do rejestru przedsiębiorców Krajowego Rejestru Sądowego prowadzonego przez Sąd Rejonowy dla M. St. Warszawy w Warszawie, XIII Wydział Gospodarczy Krajowego Rejestru Sądowego za numerem KRS 0000536926; NIP 5223021912, Polityka Prywatności – niniejszy dokument, Serwis – grupa powiązanych ze sobą stron internetowych udostępnianych w sieci Internet z adresu https://www.kancelaria-skarbiec.pl/, Użytkownik – każda osoba, która przekazuje jakiekolwiek dane osobowe Administratorowi.
-                            ...</p>                                
+                            <h4 class="text-duo text-uppercase">Ochrona prywatności</h4>
+
+                            <h6 class="text-duo text-uppercase mt-5">Administrator danych osobowych</h6>
+                            <p class="description mt-2">Kancelaria DUO LEGAL jest administratorem danych osobowych klientów, osób kontaktowych klientów oraz osób, 
+                                których dane są przekazane przez klientów, jeśli jest to niezbędne do wykonania usługi. 
+                                W zakresie, w jakim kancelaria przetwarza takie dane osobowe w celu świadczenia pomocy prawnej, staje się z mocy prawa ich administratorem. 
+                                Kancelaria przetwarza również dane osobowe osób, które uczestniczą w organizowanych przez nas wydarzeniach, aplikują o pracę, pracują lub świadczą dla nas usługi.</p>
+
+                            <h6 class="text-duo text-uppercase mt-4">Cele i podstawy przetwarzania danych</h6>
+                            <p class="description mt-2">Przetwarzamy dane w następujących celu realizacji przez Kancelarię DUO LEGAL jej uzasadnionych prawnie interesów, 
+                                w szczególności w postaci zapewnienia bezpieczeństwa, wykonania usługi prawnej, działań marketingowych, rekrutacji i zatrudnienia, 
+                                realizacji obowiązków wynikających z przepisów prawa. Kancelaria nie podejmuje decyzji wobec osób, których dane dotyczą, w oparciu o zautomatyzowane przetwarzanie, w tym profilowanie.</p>
+
+                            <h6 class="text-duo text-uppercase mt-4">Zakres przetwarzanych danych osobowych</h6>
+                            <p class="description mt-2">Zakresem przetwarzanych przez Kancelarię DUO LEGAL danych osobowych objęte są imię i nazwisko, adres, numer telefonu, adres e-mail klienta.</p>
+                            <p class="description">Osobom, których dotyczą przetwarzane dane, przysługują następujące prawa:
+                            <ul>
+                                <li>
+                                    prawo do informacji, które realizuje między innymi niniejsza Nota prawna i polityka prywatności,
+                                </li>
+                                <li>
+                                    prawo dostępu do danych,
+                                </li>
+                                <li>
+                                    prawo do sprostowania danych,
+                                </li>
+                                <li>
+                                    prawo do usunięcia danych,
+                                </li>
+                                <li>
+                                    prawo do ograniczenia przetwarzania danych,
+                                </li>
+                                <li>
+                                    prawo do sprzeciwu,
+                                </li>
+                            </ul>
+                            </p>
+
+                            <h6 class="text-duo text-uppercase mt-4">Ograniczenie udostępniania informacji</h6>
+                            <p class="description mt-2">Kancelaria DUO LEGAL przechowuje dane przez okres korzystania przez klienta z usług Kancelarii lub przez okres niezbędny dla zrealizowania celów, dla których dane te zostały zebrane.</p>
+                            <p class="description">W sprawach nieuregulowanych powyżej zastosowanie mają postanowienia Kodeksu cywilnego i odpowiednich ustaw prawa polskiego, 
+                                a także prawa Unii Europejskiej, w szczególności RODO (rozporządzenie Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. 
+                                w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE).</p>
                         </card>
                     </div>
                 </div>

@@ -20,10 +20,10 @@
                     <div class="col px-0">
                         <div class="row">
                             <div class="col-lg-8">
-                                <h1 class="display-3  text-white">Kancelaria Duolegal
-                                    <span>Jakieś hasło coś tam coś tam do zmiany</span>
-                                </h1>
-                                <p class="lead  text-white">Najpiękniejszej Siadł Najpiękniejszego Kazał szafie jezior Rzeczypospolitej. Lasy Bogu razu Białopiotrowiczem owad. Jedni kąty Białopiotrowiczowi Ślad wybor osoby domie Spór.</p>
+                                <blockquote class="blockquote text-white">
+                                    <p class="h5 mb-0 text-white">&bdquo;Jeśli priorytety klientów nie są naszymi priorytetami, nie mamy żadnych priorytetów.&ldquo;</p>
+                                    <footer class="blockquote-footer">Roger Dow</footer>
+                                </blockquote>
                             </div>
                         </div>
                     </div>
@@ -31,49 +31,102 @@
             </section>
             <!-- 1st Hero Variation -->
             <section class="section section-lg pt-lg-0 mt--200">
+                <h1 class="display-3 text-white text-center pb-md-5">Obsługiwane sektory</h1>
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <div class="row row-grid">
+                                <div class="col-lg-4">
+                                    <card class="border-0 " hover shadow body-classes="py-5">
+                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
+                                        </icon>
+                                        <h6 class="text-duo text-uppercase">Spory sądowe/mediacje</h6>
+                                        <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4
+                                            that includes the most important components and features.</p>
+                                        <div>
+                                            <badge type="duo" rounded>design</badge>
+                                            <badge type="duo" rounded>system</badge>
+                                            <badge type="duo" rounded>creative</badge>
+                                        </div>
+                                    </card>
+                                </div>
+                                <div class="col-lg-4">
+                                    <card class="border-0" hover shadow body-classes="py-5">
+                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
+                                        </icon>
+                                        <h6 class="text-duo text-uppercase">kompleksowe doradztwo procesowe</h6>
+                                        <p class="description mt-3">Argon is a great free UI package based on Bootstrap
+                                            4 that includes the most important components and features.</p>
+                                        <div>
+                                            <badge type="duo" rounded>business</badge>
+                                            <badge type="duo" rounded>vision</badge>
+                                            <badge type="duo" rounded>success</badge>
+                                        </div>
+                                    </card>
+                                </div>
+                                <div class="col-lg-4 text-center">
+                                    <card class="border-0" hover shadow body-classes="py-5" >
+                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
+                                        </icon>
+                                        <h6 class="text-duo text-uppercase">Prawo karne</h6>
+                                        <div>
+                                            <badge type="duo" rounded>marketing</badge>
+                                            <badge type="duo" rounded>product</badge>
+                                            <badge type="duo" rounded>launch</badge>
+                                        </div>
+                                        <base-button type="duo" size="sm" class="mt-md-4" @click="modals.modal0 = true">więcej</base-button>
+                                    </card>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+                        <!-- 2st Hero Variation -->
+            <section class="section section-lg pt-lg-0">
                 <div class="container">
                     <div class="row justify-content-center">
                         <div class="col-lg-12">
                             <div class="row row-grid">
                                 <div class="col-lg-4">
                                     <card class="border-0" hover shadow body-classes="py-5">
-                                        <icon name="ni ni-books" type="primary" rounded class="mb-4">
+                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
                                         </icon>
-                                        <h6 class="text-primary text-uppercase">Prawo karne</h6>
+                                        <h6 class="text-duo text-uppercase">Prawo karne</h6>
                                         <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4
                                             that includes the most important components and features.</p>
                                         <div>
-                                            <badge type="primary" rounded>design</badge>
-                                            <badge type="primary" rounded>system</badge>
-                                            <badge type="primary" rounded>creative</badge>
+                                            <badge type="duo" rounded>design</badge>
+                                            <badge type="duo" rounded>system</badge>
+                                            <badge type="duo" rounded>creative</badge>
                                         </div>
                                     </card>
                                 </div>
                                 <div class="col-lg-4">
                                     <card class="border-0" hover shadow body-classes="py-5">
-                                        <icon name="ni ni-books" type="primary" rounded class="mb-4">
+                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
                                         </icon>
-                                        <h6 class="text-primary text-uppercase">Prawo cywilne</h6>
+                                        <h6 class="text-duo text-uppercase">Prawo cywilne</h6>
                                         <p class="description mt-3">Argon is a great free UI package based on Bootstrap
                                             4 that includes the most important components and features.</p>
                                         <div>
-                                            <badge type="primary" rounded>business</badge>
-                                            <badge type="primary" rounded>vision</badge>
-                                            <badge type="primary" rounded>success</badge>
+                                            <badge type="duo" rounded>business</badge>
+                                            <badge type="duo" rounded>vision</badge>
+                                            <badge type="duo" rounded>success</badge>
                                         </div>
                                     </card>
                                 </div>
                                 <div class="col-lg-4">
                                     <card class="border-0" hover shadow body-classes="py-5">
-                                        <icon name="ni ni-books" type="primary" rounded class="mb-4">
+                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
                                         </icon>
-                                        <h6 class="text-primary text-uppercase">Franki</h6>
+                                        <h6 class="text-duo text-uppercase">Franki</h6>
                                         <p class="description mt-3">Argon is a great free UI package based on Bootstrap
                                             4 that includes the most important components and features.</p>
                                         <div>
-                                            <badge type="primary" rounded>marketing</badge>
-                                            <badge type="primary" rounded>product</badge>
-                                            <badge type="primary" rounded>launch</badge>
+                                            <badge type="duo" rounded>marketing</badge>
+                                            <badge type="duo" rounded>product</badge>
+                                            <badge type="duo" rounded>launch</badge>
                                         </div>
                                     </card>
                                 </div>
@@ -82,7 +135,60 @@
                     </div>
                 </div>
             </section>
-            <section class="section section-lg">
+                        <!-- 3st Hero Variation -->
+            <section class="section section-lg pt-lg-0">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-12">
+                            <div class="row row-grid">
+                                <div class="col-lg-4">
+                                    <card class="border-0" hover shadow body-classes="py-5">
+                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
+                                        </icon>
+                                        <h6 class="text-duo text-uppercase">Prawo karne</h6>
+                                        <p class="description mt-3">Argon is a great free UI package based on Bootstrap 4
+                                            that includes the most important components and features.</p>
+                                        <div>
+                                            <badge type="duo" rounded>design</badge>
+                                            <badge type="duo" rounded>system</badge>
+                                            <badge type="duo" rounded>creative</badge>
+                                        </div>
+                                    </card>
+                                </div>
+                                <div class="col-lg-4">
+                                    <card class="border-0" hover shadow body-classes="py-5">
+                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
+                                        </icon>
+                                        <h6 class="text-duo text-uppercase">Prawo cywilne</h6>
+                                        <p class="description mt-3">Argon is a great free UI package based on Bootstrap
+                                            4 that includes the most important components and features.</p>
+                                        <div>
+                                            <badge type="duo" rounded>business</badge>
+                                            <badge type="duo" rounded>vision</badge>
+                                            <badge type="duo" rounded>success</badge>
+                                        </div>
+                                    </card>
+                                </div>
+                                <div class="col-lg-4">
+                                    <card class="border-0" hover shadow body-classes="py-5">
+                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
+                                        </icon>
+                                        <h6 class="text-duo text-uppercase">Franki</h6>
+                                        <p class="description mt-3">Argon is a great free UI package based on Bootstrap
+                                            4 that includes the most important components and features.</p>
+                                        <div>
+                                            <badge type="duo" rounded>marketing</badge>
+                                            <badge type="duo" rounded>product</badge>
+                                            <badge type="duo" rounded>launch</badge>
+                                        </div>
+                                    </card>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section class="section section-lg">
                 <div class="container">
                     <div class="row row-grid align-items-center">
                         <div class="col-md-6 order-md-2">
@@ -120,7 +226,7 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> -->
         </div>
         
 </template>
