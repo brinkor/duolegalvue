@@ -19,7 +19,7 @@
                 <div class="container shape-container d-flex">
                     <div class="col px-0">
                         <div class="row">
-                            <div class="col-lg-6">
+                            <div class="col-lg-8">
                                 <h1 class="display-3  text-white">Kancelaria Duolegal
                                     <span>Jakieś hasło coś tam coś tam do zmiany</span>
                                 </h1>

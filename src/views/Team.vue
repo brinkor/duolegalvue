@@ -19,13 +19,13 @@
             <div class="container shape-container d-flex">
                 <div class="col px-0">
                     <div class="row">
-                        <div class="col-lg-6">
-                            <h1 class="display-3  text-white">Partnerzy
-                                <span>Text</span>
+                        <div class="col-lg-8">
+                            <h1 class="display-3  text-white">Wspólnicy
                             </h1>
-                            <p class="lead  text-white">Cosby sweater eu banh mi, qui irure terry richardson ex
-                            squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan
-                            american apparel, butcher voluptate nisi qui.</p>
+                            <blockquote class="blockquote text-white">
+                                <p class="h5 mb-0 text-white">&bdquo;Jeśli jest w ogóle jakiś sekret sukcesu, leży on w umiejętności przyjęcia punktu widzenia innych i patrzeniu na rzeczy zarówno z pozycji rozmówcy, jak i własnej.&ldquo;</p>
+                                <footer class="blockquote-footer">Henry Ford</footer>
+                            </blockquote>
                         </div>
                     </div>
                 </div>
@@ -38,7 +38,34 @@
             <div class="container">
                 <tabs fill class="flex-column flex-md-row">
                     <card shadow>
-                        <tab-pane title="Aleksandra Hajdasz">
+                        <div class="row row-grid align-items-center">
+                            <div class="pl-md-5 pr-md-5">
+                                <div class="text-center mt-5">
+                                    <h3 class="duolegal_color text-center">Duo legal to zespół profesjonalistów
+                                        <!-- <span class="font-weight-light">, 27</span> -->
+                                    </h3>
+                                    <!-- <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>Bucharest, Romania</div> -->
+                                    <div class="mt-4 justify-content-center">prawników, specjalizujących się w szczególności w prawie gospodarczym i sprawach spornych.
+                                        Posiadamy wiedzę i doświadczenie z zakresu sporów konsumentów z instytucjami finansowymi,
+                                        w szczególności w tzw. „sporach frankowych”, w świadczeniu usług prawnych w zakresie kompleksowej obsługi korporacyjnej małych,
+                                        średnich i dużych przedsiębiorców oraz świadczeniu profesjonalnych usług z zakresu prawa karnego,
+                                        karnego gospodarczego oraz prawa wykroczeń. Ponadto, nasz zespół oferuje wszechstronne wsparcie w obszarach prawa istotnych dla biznesu.</div>
+                                    <!-- <div><i class="ni education_hat mr-2"></i>University of Computer Science</div> -->
+                                </div>
+                                <div class="mt-5 py-5 border-top text-center">
+                                    <div class="row justify-content-center">
+                                        <div>
+                                            <p>Świadcząc usługi prawne pomagamy sprostać wyzwaniom, którym stawiają czoła nasi klienci i wspieramy ich podejmując efektywne działania.
+                                                Korzystamy z nowoczesnych rozwiązań, szczególną uwagę przykładamy do dyspozycyjności i responsywności naszych prawników w relacjach z klientach.</p>
+                                            <!-- <p class="text-right">ahajdasz@duolegal.pl <br/>525 123 222 </p> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <base-button type="default" tag="a" href="mailto:ahajdasz@duolegal.pl" size="sm" class="float-right">Skontaktuj się</base-button> -->
+                            </div>
+                            </div>
+
+                        <!-- <tab-pane title="Aleksandra Hajdasz">
                             
                             <div class="row row-grid align-items-center">
                                 <div class="col-md-4">
@@ -95,9 +122,34 @@
                                     </div>
                                 </div>
                             </div>
-                        </tab-pane>
+                        </tab-pane> -->
                     </card>
                 </tabs>
+            </div>
+        </section>
+        <section class="section section-lg">
+            <div class="container">
+                <div class="row row-grid align-items-center">
+                    <div class="col-md-6 order-md-2">
+                         <div class="image-stack">
+                            <div class="image-stack__item image-stack__item--top">
+                                <img src="img/theme/team2.jpg" alt="A portrait of a girl under hanging flowers." class="img-fluid rounded shadow-lg floating">
+                            </div>
+                            <div class="image-stack__item image-stack__item--bottom" >
+                                <img src="img/theme/team1.jpg" alt="" class="img-fluid rounded shadow-lg floating">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 order-md-1">
+                        <div class="pr-md-5">
+                            <icon name="fa fa-users" class="mb-5" size="lg" type="duo" shadow
+                                  rounded></icon>
+                            <h3>Nasz cel</h3>
+                            <p>Naszym głównym celem jest dbałość o interesy klienta, a w konsekwencji jego satysfakcja. 
+                                Nasze usługi dostosowane są do charakterystyki sprawy i indywidualnych potrzeb klientów, z uwzględnieniem branży w której działają.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         
@@ -114,4 +166,27 @@ export default {
 };
 </script>
 <style>
+
+.image-stack {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.image-stack__item--bottom {
+  grid-column: 4 / -1;
+  grid-row: 1;
+}
+
+.image-stack__item--top {
+  grid-row: 1;
+  grid-column: 1 / span 8;
+  padding-top: 40%;
+  z-index: 1;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
 </style>
