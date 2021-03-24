@@ -15,14 +15,14 @@
         <div class="container shape-container d-flex align-items-center">
             <div class="col px-0">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-lg-7 text-center pt-lg">
-                        <img src="img/brand/duolegal_new_pink.svg" style="width: 30vw ;" class="img-fluid">
-                        <p class="bigger_white_text">
-                            <span class="duolegal_color">d</span>okładność<br/>
-                            <span class="duolegal_color">u</span>miejętności<br/>
-                            <span class="duolegal_color">o</span>fensywa
-                        </p>
-                    </div>
+                    <img src="img/brand/duolegal_new_pink.svg" style="width: 60% ;" class="img-fluid">
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <p class="bigger_white_text">
+                        <span class="duolegal_color">d</span>okładność<br/>
+                        <span class="duolegal_color">u</span>miejętności<br/>
+                        <span class="duolegal_color">o</span>fensywa
+                    </p>
                 </div>
             </div>
         </div>
@@ -39,7 +39,7 @@ export default {};
 }
 .bigger_white_text{
     color: white;
-    font-size: 250%;
+    font-size: 200%;
     font-weight: 400;
     display: inline-block; 
     text-align: left;

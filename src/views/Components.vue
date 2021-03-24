@@ -2,7 +2,7 @@
     <div>
         <hero></hero>
         <short-about></short-about>
-        <short-team></short-team>
+        <our-location></our-location>
     </div>
 </template>
 <script>
@@ -18,6 +18,7 @@ import Examples from "./components/Examples";
 import DownloadSection from "./components/DownloadSection";
 import ShortAbout from "./components/ShortAbout";
 import ShortTeam from "./components/ShortTeam";
+import OurLocation from "./components/OurLocation";
 
 export default {
   name: "components",
@@ -33,9 +34,11 @@ export default {
     Examples,
     DownloadSection,
     ShortAbout,
-    ShortTeam
+    ShortTeam,
+    OurLocation
   }
 };
 </script>
 
-    ShortAbout
+  
+    OurLocation  ShortAbout
