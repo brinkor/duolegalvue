@@ -37,43 +37,49 @@
                         <div class="col-lg-12">
                             <div class="row row-grid">
                                 <div class="col-lg-4 text-center">
-                                    <card class="border-0" hover shadow body-classes="py-5" >
-                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
-                                        </icon>
-                                        <h6 class="text-duo text-uppercase">Spory sądowe/mediacje</h6>
-                                        <div>
-                                            <badge type="duo" rounded>marketing</badge>
-                                            <badge type="duo" rounded>product</badge>
-                                            <badge type="duo" rounded>launch</badge>
+                                    <div class="card border-0 whole-block-height card-lift--hover shadow">
+                                        <div class="card-body py-5 d-flex flex-column justify-content-center">
+                                            <icon name="fa fa-handshake-o" type="duo" size="lg" rounded class="mb-4 align-self-center">
+                                            </icon>
+                                            <h6 class="text-duo text-uppercase">Spory sądowe/mediacje</h6>
+                                            <div class="mb-4">
+                                                <badge type="duo" rounded>reprezentacja</badge>
+                                                <badge type="duo" rounded>doradztwo</badge>
+                                                <badge type="duo" rounded>negocjacje</badge>
+                                            </div>
+                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_sad = true">więcej</base-button>
                                         </div>
-                                        <base-button type="duo" size="sm" class="mt-md-4" @click="modals.modal_sad = true">więcej</base-button>
-                                    </card>
+                                    </div>
                                 </div>
                                 <div class="col-lg-4 text-center">
-                                    <card class="border-0" hover shadow body-classes="py-5" >
-                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
-                                        </icon>
-                                        <h6 class="text-duo text-uppercase">Spory konsumentów z podmiotami rynku finansowego</h6>
-                                        <div>
-                                            <badge type="duo" rounded>marketing</badge>
-                                            <badge type="duo" rounded>product</badge>
-                                            <badge type="duo" rounded>launch</badge>
+                                    <div class="card border-0 whole-block-height card-lift--hover shadow">
+                                        <div class="card-body py-5 d-flex flex-column justify-content-center">
+                                            <icon name="fa fa-money" type="duo" size="lg" rounded class="mb-4 align-self-center">
+                                            </icon>
+                                            <h6 class="text-duo text-uppercase">Spory konsumentów z podmiotami rynku finansowego</h6>
+                                            <div class="mb-4">
+                                                <badge type="duo" rounded>analiza</badge>
+                                                <badge type="duo" rounded>wsparcie</badge>
+                                                <badge type="duo" rounded>reprezentacja</badge>
+                                            </div>
+                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_konsument = true">więcej</base-button>
                                         </div>
-                                        <base-button type="duo" size="sm" class="mt-md-4" @click="modals.modal_konsument = true">więcej</base-button>
-                                    </card>
+                                    </div>
                                 </div>
                                 <div class="col-lg-4 text-center">
-                                    <card class="border-0" hover shadow body-classes="py-5" >
-                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
-                                        </icon>
-                                        <h6 class="text-duo text-uppercase">Prawo karne</h6>
-                                        <div>
-                                            <badge type="duo" rounded>marketing</badge>
-                                            <badge type="duo" rounded>product</badge>
-                                            <badge type="duo" rounded>launch</badge>
+                                    <div class="card border-0 whole-block-height card-lift--hover shadow">
+                                        <div class="card-body py-5 d-flex flex-column justify-content-center">
+                                            <icon name="fa fa-hashtag" type="duo" size="lg" rounded class="mb-4 align-self-center">
+                                            </icon>
+                                            <h6 class="text-duo text-uppercase">Prawo karne</h6>
+                                            <div class="mb-4">
+                                                <badge type="duo" rounded>pisma</badge>
+                                                <badge type="duo" rounded>obrona</badge>
+                                                <badge type="duo" rounded>pełnomocnictwo</badge>
+                                            </div>
+                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_karne = true">więcej</base-button>
                                         </div>
-                                        <base-button type="duo" size="sm" class="mt-md-4" @click="modals.modal_karne = true">więcej</base-button>
-                                    </card>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -87,43 +93,48 @@
                         <div class="col-lg-12">
                             <div class="row row-grid">
                                 <div class="col-lg-4 text-center">
-                                    <card class="border-0" hover shadow body-classes="py-5" >
-                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
-                                        </icon>
-                                        <h6 class="text-duo text-uppercase">Obsługa korporacyjna przedsiębiorstw</h6>
-                                        <div>
-                                            <badge type="duo" rounded>marketing</badge>
-                                            <badge type="duo" rounded>product</badge>
-                                            <badge type="duo" rounded>launch</badge>
+                                    <div class="card border-0 whole-block-height card-lift--hover shadow">
+                                        <div class="card-body py-5 d-flex flex-column justify-content-center">
+                                            <icon name="fa fa-building" type="duo" size="lg" rounded class="mb-4 align-self-center">
+                                            </icon>
+                                            <h6 class="text-duo text-uppercase">Obsługa korporacyjna przedsiębiorstw</h6>
+                                            <div class="mb-4">
+                                                <badge type="duo" rounded>umowy</badge>
+                                                <badge type="duo" rounded>start-upy</badge>
+                                                <badge type="duo" rounded>regulacje</badge>
+                                            </div>
+                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_korp = true">więcej</base-button>
                                         </div>
-                                        <base-button type="duo" size="sm" class="mt-md-4" @click="modals.modal_korp = true">więcej</base-button>
-                                    </card>
+                                    </div>
                                 </div>
                                 <div class="col-lg-4 text-center">
-                                    <card class="border-0" hover shadow body-classes="py-5" >
-                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
-                                        </icon>
-                                        <h6 class="text-duo text-uppercase">Prawo gospodarcze</h6>
-                                        <div>
-                                            <badge type="duo" rounded>marketing</badge>
-                                            <badge type="duo" rounded>product</badge>
-                                            <badge type="duo" rounded>launch</badge>
+                                    <div class="card border-0 whole-block-height card-lift--hover shadow">
+                                        <div class="card-body py-5 d-flex flex-column justify-content-center">
+                                            <icon name="fa fa-line-chart" type="duo" size="lg" rounded class="mb-4 align-self-center">
+                                            </icon>
+                                            <h6 class="text-duo text-uppercase">Prawo gospodarcze</h6>
+                                            <div class="mb-4">
+                                                <badge type="duo" rounded>opracowywanie umów</badge>
+                                                <badge type="duo" rounded>reprezentacja</badge>
+                                            </div>
+                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_gosp = true">więcej</base-button>
                                         </div>
-                                        <base-button type="duo" size="sm" class="mt-md-4" @click="modals.modal_gosp = true">więcej</base-button>
-                                    </card>
+                                    </div>
                                 </div>
                                 <div class="col-lg-4 text-center">
-                                    <card class="border-0" hover shadow body-classes="py-5" >
-                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
-                                        </icon>
-                                        <h6 class="text-duo text-uppercase">Prawo upadłościowe i restrukturyzacyjne</h6>
-                                        <div>
-                                            <badge type="duo" rounded>marketing</badge>
-                                            <badge type="duo" rounded>product</badge>
-                                            <badge type="duo" rounded>launch</badge>
+                                    <div class="card border-0 whole-block-height card-lift--hover shadow">
+                                        <div class="card-body py-5 d-flex flex-column justify-content-center">
+                                            <icon name="ni ni-books" type="duo" size="lg" rounded class="mb-4 align-self-center">
+                                            </icon>
+                                            <h6 class="text-duo text-uppercase">Prawo upadłościowe i restrukturyzacyjne</h6>
+                                            <div class="mb-4">
+                                                <badge type="duo" rounded>wnioski</badge>
+                                                <badge type="duo" rounded>wierzyciele</badge>
+                                                <badge type="duo" rounded>dłużnicy</badge>
+                                            </div>
+                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_upad = true">więcej</base-button>
                                         </div>
-                                        <base-button type="duo" size="sm" class="mt-md-4" @click="modals.modal_upad = true">więcej</base-button>
-                                    </card>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -136,44 +147,50 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-12">
                             <div class="row row-grid">
+                                
                                 <div class="col-lg-4 text-center">
-                                    <card class="border-0" hover shadow body-classes="py-5" >
-                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
-                                        </icon>
-                                        <h6 class="text-duo text-uppercase">Ochrona dóbr osobistych</h6>
-                                        <div>
-                                            <badge type="duo" rounded>marketing</badge>
-                                            <badge type="duo" rounded>product</badge>
-                                            <badge type="duo" rounded>launch</badge>
+                                    <div class="card border-0 whole-block-height card-lift--hover shadow">
+                                        <div class="card-body py-5 d-flex flex-column justify-content-center">
+                                            <icon name="fa fa-male" type="duo" size="lg" rounded class="mb-4 align-self-center">
+                                            </icon>
+                                            <h6 class="text-duo text-uppercase">Ochrona dóbr osobistych</h6>
+                                            <div class="mb-4">
+                                                <badge type="duo" rounded>doradztwo</badge>
+                                                <badge type="duo" rounded>reprezentacja</badge>
+                                            </div>
+                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_dobr = true">więcej</base-button>
                                         </div>
-                                        <base-button type="duo" size="sm" class="mt-md-4" @click="modals.modal_dobr = true">więcej</base-button>
-                                    </card>
+                                    </div>
                                 </div>
                                 <div class="col-lg-4 text-center">
-                                    <card class="border-0" hover shadow body-classes="py-5" >
-                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
-                                        </icon>
-                                        <h6 class="text-duo text-uppercase">Prawo pracy</h6>
-                                        <div>
-                                            <badge type="duo" rounded>marketing</badge>
-                                            <badge type="duo" rounded>product</badge>
-                                            <badge type="duo" rounded>launch</badge>
+                                    <div class="card border-0 whole-block-height card-lift--hover shadow">
+                                        <div class="card-body py-5 d-flex flex-column justify-content-center">
+                                            <icon name="fa fa-wrench" type="duo" size="lg" rounded class="mb-4 align-self-center">
+                                            </icon>
+                                            <h6 class="text-duo text-uppercase">Prawo pracy</h6>
+                                            <div class="mb-4">
+                                                <badge type="duo" rounded>umowy</badge>
+                                                <badge type="duo" rounded>regulaminy</badge>
+                                                <badge type="duo" rounded>kontrakty</badge>
+                                            </div>
+                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_pracy = true">więcej</base-button>
                                         </div>
-                                        <base-button type="duo" size="sm" class="mt-md-4" @click="modals.modal_pracy = true">więcej</base-button>
-                                    </card>
+                                    </div>
                                 </div>
                                 <div class="col-lg-4 text-center">
-                                    <card class="border-0" hover shadow body-classes="py-5" >
-                                        <icon name="ni ni-books" type="duo" rounded class="mb-4">
-                                        </icon>
-                                        <h6 class="text-duo text-uppercase">Prawo budowlane</h6>
-                                        <div>
-                                            <badge type="duo" rounded>marketing</badge>
-                                            <badge type="duo" rounded>product</badge>
-                                            <badge type="duo" rounded>launch</badge>
+                                    <div class="card border-0 whole-block-height card-lift--hover shadow">
+                                        <div class="card-body py-5 d-flex flex-column justify-content-center">
+                                            <icon name="fa fa-university" type="duo" size="lg" rounded class="mb-4 align-self-center">
+                                            </icon>
+                                            <h6 class="text-duo text-uppercase">Prawo budowlane</h6>
+                                            <div class="mb-4">
+                                                <badge type="duo" rounded>rozliczenia</badge>
+                                                <badge type="duo" rounded>analiza</badge>
+                                                <badge type="duo" rounded>umowy</badge>
+                                            </div>
+                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_bud = true">więcej</base-button>
                                         </div>
-                                        <base-button type="duo" size="sm" class="mt-md-4" @click="modals.modal_bud = true">więcej</base-button>
-                                    </card>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -230,119 +247,118 @@
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_karne = false">Close
+                    <base-button type="duo" class="ml-auto" @click="modals.modal_karne = false">Zamknij
                     </base-button>
                 </template>
             </modal>
             <modal :show.sync="modals.modal_sad">
-                <h6 slot="header" class="modal-title" id="modal-title-default">Prawo sad</h6>
+                <h6 slot="header" class="modal-title" id="modal-title-default">Spory sądowe/mediacje</h6>
                 <ul>
-                    <li>kompleksowa reprezentacja w postępowaniach karnych przed sądami wszystkich instancji i organami ścigania w charakterze obrońcy, jak i pełnomocnika pokrzywdzonego</li>
-                    <li>sporządzanie wszelkich pism na etapie postępowania przygotowawczego oraz na etapie postępowania sądowego</li>
-                    <li>doradztwo prawne w sprawach karnych, karnych gospodarczych i o wykroczenia</li>
-                    <li>doradztwo w zakresie compliance</li>
+                    <li>reprezentacja w postępowaniach sądowych przed sądami wszystkich instancji oraz w postępowaniach przed sądami arbitrażowymi</li>
+                    <li>kompleksowe doradztwo procesowe</li>
+                    <li>udział w przedsądowych negocjacjach i mediacjach</li>
+                    <li>reprezentacja w postępowaniach egzekucyjnych</li>
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_sad = false">Close
+                    <base-button type="duo" class="ml-auto" @click="modals.modal_sad = false">Zamknij
                     </base-button>
                 </template>
             </modal>
             <modal :show.sync="modals.modal_konsument">
-                <h6 slot="header" class="modal-title" id="modal-title-default">Prawo konsument</h6>
+                <h6 slot="header" class="modal-title" id="modal-title-default">Spory konsumentów z podmiotami rynku finansowego</h6>
                 <ul>
-                    <li>kompleksowa reprezentacja w postępowaniach karnych przed sądami wszystkich instancji i organami ścigania w charakterze obrońcy, jak i pełnomocnika pokrzywdzonego</li>
-                    <li>sporządzanie wszelkich pism na etapie postępowania przygotowawczego oraz na etapie postępowania sądowego</li>
-                    <li>doradztwo prawne w sprawach karnych, karnych gospodarczych i o wykroczenia</li>
-                    <li>doradztwo w zakresie compliance</li>
+                    <li>reprezentacja w postępowaniach sądowych konsumentów z bankami o roszczenia wynikające z umów kredytów powiązanych z kursem waluty obcej, w tym w szczególności tzw. kredyty frankowe</li>
+                    <li>analiza dokumentacji kredytowej</li>
+                    <li>wsparcie konsumentów na każdym etapie postępowania, zarówno przedsądowego, sądowego oraz postępowania egzekucyjnego</li>
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_konsument = false">Close
+                    <base-button type="duo" class="ml-auto" @click="modals.modal_konsument = false">Zamknij
                     </base-button>
                 </template>
             </modal>
             <modal :show.sync="modals.modal_korp">
-                <h6 slot="header" class="modal-title" id="modal-title-default">Prawo korpo</h6>
+                <h6 slot="header" class="modal-title" id="modal-title-default">Obsługa korporacyjna przedsiębiorstw</h6>
                 <ul>
-                    <li>kompleksowa reprezentacja w postępowaniach karnych przed sądami wszystkich instancji i organami ścigania w charakterze obrońcy, jak i pełnomocnika pokrzywdzonego</li>
-                    <li>sporządzanie wszelkich pism na etapie postępowania przygotowawczego oraz na etapie postępowania sądowego</li>
-                    <li>doradztwo prawne w sprawach karnych, karnych gospodarczych i o wykroczenia</li>
-                    <li>doradztwo w zakresie compliance</li>
+                    <li>reprezentacja przedsiębiorców przed sądami rejestrowymi a także w postępowaniach administracyjnych przed organami administracji, a w tym wsparcie w wyborze formy prowadzonej działalności</li>
+                    <li>opracowywanie umów, statutów oraz regulacji wewnętrznych spółek</li>
+                    <li>pełna obsługa start-upów, w tym bieżące doradztwo przy rozpoczynaniu działalności, opiniowanie projektów biznesowych</li>
+                    <li>opracowywanie, weryfikacja i dostosowywanie dokumentacji wewnętrznej w sprawach korporacyjnych i regulacyjnych</li>
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_korp = false">Close
+                    <base-button type="duo" class="ml-auto" @click="modals.modal_korp = false">Zamknij
                     </base-button>
                 </template>
             </modal>
             <modal :show.sync="modals.modal_gosp">
-                <h6 slot="header" class="modal-title" id="modal-title-default">Prawo gosp</h6>
+                <h6 slot="header" class="modal-title" id="modal-title-default">Prawo gospodarcze</h6>
                 <ul>
-                    <li>kompleksowa reprezentacja w postępowaniach karnych przed sądami wszystkich instancji i organami ścigania w charakterze obrońcy, jak i pełnomocnika pokrzywdzonego</li>
-                    <li>sporządzanie wszelkich pism na etapie postępowania przygotowawczego oraz na etapie postępowania sądowego</li>
-                    <li>doradztwo prawne w sprawach karnych, karnych gospodarczych i o wykroczenia</li>
-                    <li>doradztwo w zakresie compliance</li>
+                    <li>kompleksowa reprezentacja w sprawach gospodarczych przed sądami wszystkich instancji</li>
+                    <li>opracowywanie wszelkiego rodzaju umów w obrocie gospodarczym i sporządzanie opinii prawnych</li>
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_gosp = false">Close
+                    <base-button type="duo" class="ml-auto" @click="modals.modal_gosp = false">Zamknij
                     </base-button>
                 </template>
             </modal>
             <modal :show.sync="modals.modal_upad">
-                <h6 slot="header" class="modal-title" id="modal-title-default">Prawo upad</h6>
+                <h6 slot="header" class="modal-title" id="modal-title-default">Prawo upadłościowe i restrukturyzacyjne</h6>
                 <ul>
-                    <li>kompleksowa reprezentacja w postępowaniach karnych przed sądami wszystkich instancji i organami ścigania w charakterze obrońcy, jak i pełnomocnika pokrzywdzonego</li>
-                    <li>sporządzanie wszelkich pism na etapie postępowania przygotowawczego oraz na etapie postępowania sądowego</li>
-                    <li>doradztwo prawne w sprawach karnych, karnych gospodarczych i o wykroczenia</li>
-                    <li>doradztwo w zakresie compliance</li>
+                    <li>przygotowywanie wniosków o otwarcie postępowania restrukturyzacyjnego</li>
+                    <li>przygotowywanie propozycji układowych i wstępnych planów restrukturyzacyjnych</li>
+                    <li>reprezentacja dłużników oraz wierzycieli w toku postępowania restrukturyzacyjnego</li>
+                    <li>obsługa dłużnika ubiegającego się o otwarcie postępowania upadłościowego, w tym również upadłość konsumencką</li>
+                    <li>obsługa upadłego w postępowaniu upadłościowym</li>
+                    <li>obsługa wierzyciela składającego wniosek o ogłoszenie upadłości dłużnika</li>
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_upad = false">Close
+                    <base-button type="duo" class="ml-auto" @click="modals.modal_upad = false">Zamknij
                     </base-button>
                 </template>
             </modal>
             <modal :show.sync="modals.modal_dobr">
-                <h6 slot="header" class="modal-title" id="modal-title-default">Prawo dobr</h6>
+                <h6 slot="header" class="modal-title" id="modal-title-default">Ochrona dóbr osobistych</h6>
                 <ul>
-                    <li>kompleksowa reprezentacja w postępowaniach karnych przed sądami wszystkich instancji i organami ścigania w charakterze obrońcy, jak i pełnomocnika pokrzywdzonego</li>
-                    <li>sporządzanie wszelkich pism na etapie postępowania przygotowawczego oraz na etapie postępowania sądowego</li>
-                    <li>doradztwo prawne w sprawach karnych, karnych gospodarczych i o wykroczenia</li>
-                    <li>doradztwo w zakresie compliance</li>
+                    <li>kompleksowa reprezentacja przed sądami wszystkich instancji</li>
+                    <li>doradztwo prawne w zakresie dóbr osobistych</li>
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_dobr = false">Close
+                    <base-button type="duo" class="ml-auto" @click="modals.modal_dobr = false">Zamknij
                     </base-button>
                 </template>
             </modal>
             <modal :show.sync="modals.modal_pracy">
                 <h6 slot="header" class="modal-title" id="modal-title-default">Prawo pracy</h6>
                 <ul>
-                    <li>kompleksowa reprezentacja w postępowaniach karnych przed sądami wszystkich instancji i organami ścigania w charakterze obrońcy, jak i pełnomocnika pokrzywdzonego</li>
-                    <li>sporządzanie wszelkich pism na etapie postępowania przygotowawczego oraz na etapie postępowania sądowego</li>
-                    <li>doradztwo prawne w sprawach karnych, karnych gospodarczych i o wykroczenia</li>
-                    <li>doradztwo w zakresie compliance</li>
+                    <li>reprezentacja w toku całego postępowania sądowego przed sądami wszystkich instancji w sporach dotyczących stosunku pracy</li>
+                    <li>przygotowywanie umów o pracę, przygotowywanie umów o zakazie konkurencji, umów o zachowaniu poufności</li>
+                    <li>przygotowywanie kontraktów menadżerskich i innych umów cywilnoprawnych</li>
+                    <li>przygotowywanie regulaminów pracy, wynagrodzenia, zakładowego funduszu świadczeń socjalnych; - przygotowywanie dokumentacji związanej ze zmianą lub rozwiązaniem stosunku pracy</li>
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_pracy = false">Close
+                    <base-button type="duo" class="ml-auto" @click="modals.modal_pracy = false">Zamknij
                     </base-button>
                 </template>
             </modal>
             <modal :show.sync="modals.modal_bud">
-                <h6 slot="header" class="modal-title" id="modal-title-default">Prawo bud</h6>
+                <h6 slot="header" class="modal-title" id="modal-title-default">Prawo budowlane</h6>
                 <ul>
-                    <li>kompleksowa reprezentacja w postępowaniach karnych przed sądami wszystkich instancji i organami ścigania w charakterze obrońcy, jak i pełnomocnika pokrzywdzonego</li>
-                    <li>sporządzanie wszelkich pism na etapie postępowania przygotowawczego oraz na etapie postępowania sądowego</li>
-                    <li>doradztwo prawne w sprawach karnych, karnych gospodarczych i o wykroczenia</li>
-                    <li>doradztwo w zakresie compliance</li>
+                    <li>przygotowywanie umów konsorcjalnych</li>
+                    <li>przygotowywanie umów z podwykonawcami</li>
+                    <li>przygotowywanie projektów zabezpieczeń należytego wykonania umów</li>
+                    <li>bieżące doradztwo w toku realizowania umów</li>
+                    <li>przygotowywanie i analiza roszczeń terminowych i finansowych</li>
+                    <li>rozliczenia z zamawiającym, partnerami konsorcjum oraz podwykonawcami</li>
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_bud = false">Close
+                    <base-button type="duo" class="ml-auto" @click="modals.modal_bud = false">Zamknij
                     </base-button>
                 </template>
             </modal>
@@ -373,4 +389,7 @@ export default {
 };
 </script>
 <style>
+.whole-block-height{
+    min-height: 100%;
+}
 </style>
