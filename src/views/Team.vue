@@ -21,7 +21,7 @@
                     <div class="row">
                         <div class="col-lg-8">
                             <blockquote class="blockquote text-white">
-                                <p class="h5 mb-0 text-white">&bdquo;Jeśli jest w ogóle jakiś sekret sukcesu, leży on w umiejętności przyjęcia punktu widzenia innych i patrzeniu na rzeczy zarówno z pozycji rozmówcy, jak i własnej.&ldquo;</p>
+                                <p class="h5 mb-0 text-white">&bdquo;Spotkać się, to początek, zgodzić się to postęp, pracować razem, to sukces.&ldquo;</p>
                                 <footer class="blockquote-footer">Henry Ford</footer>
                             </blockquote>
                         </div>

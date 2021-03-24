@@ -11,12 +11,10 @@
                 <div class="row text-center justify-content-center">
                     <div class="col-lg-10">
                         <h2 class="display-3 text-white">Skontaktuj się</h2>
-                        <p class="lead text-white">According to the National Oceanic and Atmospheric Administration,
-                            Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent
-                            tihs year down to low ice.</p>
+                        <p class="lead text-white"></p>
                     </div>
                 </div>
-                <div class="row row-grid mt-5">
+                <!-- <div class="row row-grid mt-5">
                     <div class="col-lg-4">
                         <h5 class="text-white mt-3">Chciałbyś powierzyć nam sprawę?</h5>
                         <p class="text-white mt-3">Some quick example text to build on the card title and make up the
@@ -32,7 +30,7 @@
                         <p class="text-white mt-3">Some quick example text to build on the card title and make up the
                             bulk of the card's content.</p>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <section class="section section-lg pt-lg-0 section-contact-us">

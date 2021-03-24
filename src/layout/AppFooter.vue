@@ -45,7 +45,7 @@
                 <div class="col-md-6">
                     <div class="copyright">
                         &copy; {{year}}
-                        <a class="duolegal_color" href="#/">Duolegal</a>
+                        <a class="duolegal_color duolegal_color_hover" href="#/">Duolegal</a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -92,5 +92,9 @@ export default {
 }
 .duolegal_color{
     color: rgb(194, 60, 143);
+}
+.duolegal_color_hover:hover{
+    color: rgb(121, 38, 89);
+
 }
 </style>
