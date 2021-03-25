@@ -39,11 +39,12 @@
                         <div class="row row-grid align-items-center">
                             <div class="pl-md-5 pr-md-5">
                                 <div class="text-center mt-5">
-                                    <h3 class="duolegal_color text-center">Duo legal to zespół profesjonalistów
-                                        <!-- <span class="font-weight-light">, 27</span> -->
-                                    </h3>
+                                    <!-- <h4 class="duolegal_color text-center">Duo legal
+                                    </h4> -->
                                     <!-- <div class="h6 font-weight-300"><i class="ni location_pin mr-2"></i>Bucharest, Romania</div> -->
-                                    <div class="mt-4 justify-content-center">prawników, specjalizujących się w szczególności w prawie gospodarczym i sprawach spornych.
+                                    <div class="mt-4 justify-content-center">
+                                        <span class="lead duolegal_color">Duo legal</span>
+                                        to zespół profesjonalistów, prawników, specjalizujących się w szczególności w prawie gospodarczym i sprawach spornych.
                                         Posiadamy wiedzę i doświadczenie z zakresu sporów konsumentów z instytucjami finansowymi,
                                         w szczególności w tzw. „sporach frankowych”, w świadczeniu usług prawnych w zakresie kompleksowej obsługi korporacyjnej małych,
                                         średnich i dużych przedsiębiorców oraz świadczeniu profesjonalnych usług z zakresu prawa karnego,
@@ -131,7 +132,7 @@
                     <div class="col-md-6 order-md-2">
                          <div class="image-stack">
                             <div class="image-stack__item image-stack__item--top">
-                                <img src="img/theme/team2.jpg" alt="A portrait of a girl under hanging flowers." class="img-fluid rounded shadow-lg floating">
+                                <img src="img/theme/team3.jpg" alt="A portrait of a girl under hanging flowers." class="img-fluid rounded shadow-lg floating">
                             </div>
                             <div class="image-stack__item image-stack__item--bottom" >
                                 <img src="img/theme/team1.jpg" alt="" class="img-fluid rounded shadow-lg floating">
@@ -140,11 +141,11 @@
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div class="pr-md-5">
-                            <icon name="fa fa-users" class="mb-5" size="lg" type="duo" shadow
-                                  rounded></icon>
+                            <!-- <icon name="fa fa-users" class="mb-5" size="lg" type="duo" shadow
+                                  rounded></icon> -->
                             <h3>Nasz cel</h3>
                             <p>Naszym głównym celem jest dbałość o interesy klienta, a w konsekwencji jego satysfakcja. 
-                                Nasze usługi dostosowane są do charakterystyki sprawy i indywidualnych potrzeb klientów, z uwzględnieniem branży w której działają.</p>
+                                Nasze usługi dostosowane są do charakterystyki sprawy i indywidualnych potrzeb klientów, z uwzględnieniem branży, w której działają.</p>
                         </div>
                     </div>
                 </div>

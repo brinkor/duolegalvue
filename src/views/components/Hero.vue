@@ -15,7 +15,7 @@
         <div class="container shape-container d-flex align-items-center">
             <div class="col px-0">
                 <div class="row justify-content-center align-items-center">
-                    <img src="img/brand/duolegal_new_pink.svg" style="width: 60% ;" class="img-fluid">
+                    <img src="img/brand/duolegal_new_pink.svg" style="width: 30em;" class="img-fluid">
                 </div>
                 <div class="row justify-content-center align-items-center">
                     <p class="bigger_white_text">
@@ -39,7 +39,7 @@ export default {};
 }
 .bigger_white_text{
     color: white;
-    font-size: 200%;
+    font-size: 150%;
     font-weight: 400;
     display: inline-block; 
     text-align: left;

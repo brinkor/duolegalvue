@@ -15,7 +15,7 @@
               
               <div class="card shadow">
                   <div class="card-body">
-                    duolegal <br/>
+                    Duolegal <br/>
                     ul. Twarda 18 <br/>
                     00-105 Warszawa (City Office)
                   </div>

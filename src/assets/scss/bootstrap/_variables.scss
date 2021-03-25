@@ -39,6 +39,7 @@ $grays: map-merge(
 
 
 $douprim: #c23c8f !default;
+$duogray: $gray-700 !default;
 $blue:    #007bff !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
@@ -55,6 +56,7 @@ $colors: () !default;
 $colors: map-merge(
   (
     "douprim":    $douprim,
+    "duogray":    $duogray,
     "blue":       $blue,
     "indigo":     $indigo,
     "purple":     $purple,
@@ -73,6 +75,7 @@ $colors: map-merge(
 );
 
 $duo:           $douprim !default;
+$duog:          $duogray !default;
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
@@ -87,6 +90,7 @@ $theme-colors: () !default;
 $theme-colors: map-merge(
   (
     "duo":        $duo,
+    "duog":       $duog,
     "primary":    $primary,
     "secondary":  $secondary,
     "success":    $success,

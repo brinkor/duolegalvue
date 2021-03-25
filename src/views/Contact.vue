@@ -10,8 +10,8 @@
             <div class="container pt-lg pb-300">
                 <div class="row text-center justify-content-center">
                     <div class="col-lg-10">
-                        <h2 class="display-3 text-white">Skontaktuj się</h2>
-                        <p class="lead text-white"></p>
+                        <!-- <h2 class="display-3 text-white">Skontaktuj się</h2>
+                        <p class="lead text-white"></p> -->
                     </div>
                 </div>
                 <!-- <div class="row row-grid mt-5">
@@ -39,7 +39,7 @@
                     <div class="col-lg-8">
                         <card gradient="secondary" shadow body-classes="p-lg-5">
                             <h4 class="mb-1">Masz pytanie?</h4>
-                            <p class="mt-0">Pomożemy Ci w każdej sprawie.</p>
+                            <p class="mt-0">Napisz do nas</p>
                             <form action="mailto:office@duolegal.com?subject=Pytanie duolegal.pl" method="post" enctype="text/plain">
                             <div class="form-group mt-5">
                                 <div class="input-group">

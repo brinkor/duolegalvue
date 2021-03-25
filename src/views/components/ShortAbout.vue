@@ -4,7 +4,7 @@
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6">
                         <div class="card shadow border-0">
-                            <img v-lazy="'img/theme/law.jpg'" class="card-img-top">
+                            <img v-lazy="'img/theme/main_gray.jpg'" class="card-img-top">
                             <blockquote class="card-blockquote duolegal_grey_bgcolor">
                                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
                                      class="svg-bg">
@@ -20,9 +20,9 @@
                     </div>
                     <div class="col-md-6">
                         <div class="pl-md-5">
-                            <span>
+                            <!-- <span>
                                 <icon type="duo" name="ni ni-briefcase-24" class="mb-5" size="lg" shadow rounded></icon>
-                            </span>
+                            </span> -->
                             <ul class="list-unstyled">
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">
@@ -36,7 +36,7 @@
                                         <icon circle type="duo" name="ni ni-check-bold" class="mr-3" size="sm"></icon>
                                         <h6 class="mb-0">Umiejętności</h6> <br/>
                                     </div>
-                                    <p>Kancelarię tworzy zespół profesjonalistów – prawników, posiadających gruntowną wiedzę i doświadczenie, w szczególności z zakresu prawa cywilnego, w tym gospodarczego, handlowego oraz karnego.</p>
+                                    <p>Kancelarię tworzy zespół profesjonalistów – prawników, posiadających gruntowną wiedzę i doświadczenie, w szczególności z zakresu prawa cywilnego, gospodarczego, handlowego oraz karnego.</p>
                                 </li>
                                 <li class="py-2">
                                     <div class="d-flex align-items-center">

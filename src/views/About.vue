@@ -69,13 +69,13 @@
                                 <div class="col-lg-4 text-center">
                                     <div class="card border-0 whole-block-height card-lift--hover shadow">
                                         <div class="card-body py-5 d-flex flex-column justify-content-center">
-                                            <icon name="fa fa-hashtag" type="duo" size="lg" rounded class="mb-4 align-self-center">
+                                            <icon name="fa fa-exclamation-triangle" type="duo" size="lg" rounded class="mb-4 align-self-center">
                                             </icon>
                                             <h6 class="text-duo text-uppercase">Prawo karne</h6>
                                             <div class="mb-4">
-                                                <badge type="duo" rounded>pisma</badge>
-                                                <badge type="duo" rounded>obrona</badge>
-                                                <badge type="duo" rounded>pełnomocnictwo</badge>
+                                                <badge type="duo" rounded>reprezentacja</badge>
+                                                <badge type="duo" rounded>doradztwo</badge>
+                                                <badge type="duo" rounded>natychmiastowe działanie</badge>
                                             </div>
                                             <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_karne = true">więcej</base-button>
                                         </div>
@@ -99,9 +99,9 @@
                                             </icon>
                                             <h6 class="text-duo text-uppercase">Obsługa korporacyjna przedsiębiorstw</h6>
                                             <div class="mb-4">
-                                                <badge type="duo" rounded>umowy</badge>
-                                                <badge type="duo" rounded>start-upy</badge>
-                                                <badge type="duo" rounded>regulacje</badge>
+                                                <badge type="duo" rounded>rejestracja</badge>
+                                                <badge type="duo" rounded>dokumentacja wewnętrzna</badge>
+                                                <badge type="duo" rounded>reprezentacja</badge>
                                             </div>
                                             <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_korp = true">więcej</base-button>
                                         </div>
@@ -114,8 +114,9 @@
                                             </icon>
                                             <h6 class="text-duo text-uppercase">Prawo gospodarcze</h6>
                                             <div class="mb-4">
-                                                <badge type="duo" rounded>opracowywanie umów</badge>
                                                 <badge type="duo" rounded>reprezentacja</badge>
+                                                <badge type="duo" rounded>umowy</badge>
+                                                <badge type="duo" rounded>opinie prawne</badge>
                                             </div>
                                             <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_gosp = true">więcej</base-button>
                                         </div>
@@ -129,8 +130,8 @@
                                             <h6 class="text-duo text-uppercase">Prawo upadłościowe i restrukturyzacyjne</h6>
                                             <div class="mb-4">
                                                 <badge type="duo" rounded>wnioski</badge>
-                                                <badge type="duo" rounded>wierzyciele</badge>
-                                                <badge type="duo" rounded>dłużnicy</badge>
+                                                <badge type="duo" rounded>zgłoszenia</badge>
+                                                <badge type="duo" rounded>reprezentacja</badge>
                                             </div>
                                             <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_upad = true">więcej</base-button>
                                         </div>
@@ -157,6 +158,7 @@
                                             <div class="mb-4">
                                                 <badge type="duo" rounded>doradztwo</badge>
                                                 <badge type="duo" rounded>reprezentacja</badge>
+                                                <badge type="duo" rounded>analiza</badge>
                                             </div>
                                             <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_dobr = true">więcej</base-button>
                                         </div>
@@ -165,13 +167,13 @@
                                 <div class="col-lg-4 text-center">
                                     <div class="card border-0 whole-block-height card-lift--hover shadow">
                                         <div class="card-body py-5 d-flex flex-column justify-content-center">
-                                            <icon name="fa fa-wrench" type="duo" size="lg" rounded class="mb-4 align-self-center">
+                                            <icon name="fa fa-file-text" type="duo" size="lg" rounded class="mb-4 align-self-center">
                                             </icon>
                                             <h6 class="text-duo text-uppercase">Prawo pracy</h6>
                                             <div class="mb-4">
+                                                <badge type="duo" rounded>reprezentacja</badge>
                                                 <badge type="duo" rounded>umowy</badge>
-                                                <badge type="duo" rounded>regulaminy</badge>
-                                                <badge type="duo" rounded>kontrakty</badge>
+                                                <badge type="duo" rounded>doradztwo</badge>
                                             </div>
                                             <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_pracy = true">więcej</base-button>
                                         </div>
@@ -184,9 +186,9 @@
                                             </icon>
                                             <h6 class="text-duo text-uppercase">Prawo budowlane</h6>
                                             <div class="mb-4">
-                                                <badge type="duo" rounded>rozliczenia</badge>
-                                                <badge type="duo" rounded>analiza</badge>
+                                                <badge type="duo" rounded>doradztwo</badge>
                                                 <badge type="duo" rounded>umowy</badge>
+                                                <badge type="duo" rounded>rozliczenia</badge>
                                             </div>
                                             <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_bud = true">więcej</base-button>
                                         </div>

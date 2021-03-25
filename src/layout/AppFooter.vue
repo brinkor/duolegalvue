@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row row-grid align-items-center my-md">
                 <div class="col-lg-6">
-                    <h4 class="text-duo font-weight-light mb-2">Kontakt</h4>
+                    <h4 class="text-duog font-weight-light mb-2">Kontakt</h4>
                     <div class="container">
                         <div class="row align-items-end">
                             <div class="col-1">
@@ -95,6 +95,5 @@ export default {
 }
 .duolegal_color_hover:hover{
     color: rgb(121, 38, 89);
-
 }
 </style>
