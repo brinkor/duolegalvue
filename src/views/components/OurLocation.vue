@@ -7,12 +7,11 @@
       <div class="card-body">
 
         <vl-map :load-tiles-while-animating="true" :load-tiles-while-interacting="true"
-                data-projection="EPSG:4326" style="height: 400px">
+                data-projection="EPSG:4326" style="height: 600px">
           <vl-view :zoom.sync="zoom" :center.sync="center" :rotation.sync="rotation"></vl-view>
 
           <vl-overlay id="overlay" :position="overlayCoordinate" :offset="overlayOffset">
             <template>
-              
               <div class="card shadow">
                   <div class="card-body">
                     Duolegal <br/>
@@ -55,10 +54,9 @@
     data () {
       return { 
         zoom: 16,
+        controls: true,
         center: [20.999360, 52.234430],
         rotation: 0,
-        max_zoom: 23,
-        min_zoom: 8,
         geolocPosition: undefined,
         overlayCoordinate: [20.999360, 52.234430],
         overlayOffset: [10, 10]

@@ -20,6 +20,7 @@ import App from "./App.vue";
 import router from "./router";
 import Argon from "./plugins/argon-kit";
 import VueLayers from 'vuelayers';
+import 'vuelayers/lib/style.css';
 import './registerServiceWorker';
 
 Vue.config.productionTip = false;
