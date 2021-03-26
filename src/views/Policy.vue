@@ -20,7 +20,7 @@
                 <div class="col px-0">
                     <div class="row">
                         <div class="col-lg-6">
-                            <h1 class="display-3  text-white">Nasza polityka prywatności</h1>
+                            <h1 class="display-3  text-white">Polityka prywatności</h1>
                         </div>
                     </div>
                 </div>

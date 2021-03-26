@@ -61,35 +61,29 @@ export default {};
 @keyframes slidein1 {
   from {
     margin-left: 100%;
-    width: 300%;
   }
 
   to {
     margin-left: 0%;
-    width: 100%;
   }
 }
 
 @keyframes slidein2 {
   from {
-    margin-left: 150%;
-    width: 300%;
+    margin-left: 130%;
   }
 
   to {
     margin-left: 0%;
-    width: 100%;
   }
 }
 @keyframes slidein3 {
   from {
-    margin-left: 200%;
-    width: 300%;
+    margin-left: 160%;
   }
 
   to {
     margin-left: 0%;
-    width: 100%;
   }
 }
 </style>
