@@ -19,9 +19,9 @@
                 </div>
                 <div class="row justify-content-center align-items-center">
                     <p class="bigger_white_text">
-                        <span class="duolegal_color">d</span>okładność<br/>
-                        <span class="duolegal_color">u</span>miejętności<br/>
-                        <span class="duolegal_color">o</span>fensywa
+                        <span id="slideText1" class="duolegal_color">d</span>okładność<br/>
+                        <span id="slideText2" class="duolegal_color">u</span>miejętności<br/>
+                        <span id="slideText3" class="duolegal_color">o</span>fensywa
                     </p>
                 </div>
             </div>
@@ -43,5 +43,53 @@ export default {};
     font-weight: 400;
     display: inline-block; 
     text-align: left;
+}
+
+#slideText1 {
+  animation-duration: 1s;
+  animation-name: slidein1;
+}
+#slideText2 {
+  animation-duration: 1.5s;
+  animation-name: slidein2;
+}
+#slideText3 {
+  animation-duration: 2s;
+  animation-name: slidein3;
+}
+
+@keyframes slidein1 {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+@keyframes slidein2 {
+  from {
+    margin-left: 150%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes slidein3 {
+  from {
+    margin-left: 200%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 </style>

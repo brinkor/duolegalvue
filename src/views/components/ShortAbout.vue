@@ -4,7 +4,7 @@
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6">
                         <div class="card shadow border-0">
-                            <img v-lazy="'img/theme/main2.jpg'" class="card-img-top">
+                            <img v-lazy="'img/theme/main2m.jpg'" class="card-img-top">
                             <blockquote class="card-blockquote duolegal_grey_bgcolor">
                                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
                                      class="svg-bg">

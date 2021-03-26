@@ -38,7 +38,7 @@
                 <div class="row justify-content-center mt--300">
                     <div class="col-lg-8">
                         <card gradient="secondary" shadow body-classes="p-lg-5">
-                            <h4 class="mb-1">Masz pytanie?</h4>
+                            <h4 class="mb-1 text-duo">Masz pytanie?</h4>
                             <p class="mt-0">Napisz do nas</p>
                             <form action="mailto:office@duolegal.com?subject=Pytanie duolegal.pl" method="post" enctype="text/plain">
                             <div class="form-group mt-5">
