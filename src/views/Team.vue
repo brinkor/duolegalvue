@@ -143,7 +143,7 @@
                         <div class="pr-md-5">
                             <!-- <icon name="fa fa-users" class="mb-5" size="lg" type="duo" shadow
                                   rounded></icon> -->
-                            <h3>Nasz cel</h3>
+                            <!-- <h3>Nasz cel</h3> -->
                             <p>Naszym głównym celem jest dbałość o interesy klienta, a w konsekwencji jego satysfakcja. 
                                 Nasze usługi dostosowane są do charakterystyki sprawy i indywidualnych potrzeb klientów, z uwzględnieniem branży, w której działają.</p>
                         </div>

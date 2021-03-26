@@ -39,6 +39,6 @@ export default {
   }
 };
 </script>
+<style>
 
-  
-    OurLocation  ShortAbout
+</style>

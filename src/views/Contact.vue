@@ -65,7 +65,7 @@
                                     <textarea class="form-control form-control-alternative" name="comment" rows="4"
                                               cols="80" placeholder="Napisz wiadomość..."></textarea>
                             </base-input>
-                            <base-button nativeType="submit" type="duo" value="Send" round block size="lg">
+                            <base-button nativeType="submit" type="Secoundary" class="duo_btn duo_grey_btn" value="Send" round block size="lg">
                                 Wyślij wiadomość
                             </base-button>
                             
@@ -81,4 +81,7 @@
 export default {};
 </script>
 <style>
+.duo_grey_btn{
+    background-color: #ced4da;
+}
 </style>

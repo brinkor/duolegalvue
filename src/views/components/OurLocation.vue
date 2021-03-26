@@ -14,7 +14,7 @@
             <template>
               <div class="card shadow">
                   <div class="card-body">
-                    Duolegal <br/>
+                    <span class="lead duolegal_color">Duo legal</span> <br/>
                     ul. Twarda 18 <br/>
                     00-105 Warszawa (City Office)
                   </div>
@@ -34,7 +34,7 @@
 
               <vl-style-box>
                 <vl-style-circle :radius="10">
-                  <vl-style-fill color="red"></vl-style-fill>
+                  <vl-style-fill color="#c23b8e"></vl-style-fill>
                   <vl-style-stroke color="black"></vl-style-stroke>
                 </vl-style-circle>
               </vl-style-box>

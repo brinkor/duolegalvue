@@ -41,13 +41,13 @@
                                         <div class="card-body py-5 d-flex flex-column justify-content-center">
                                             <icon name="fa fa-handshake-o" type="duo" size="lg" rounded class="mb-4 align-self-center">
                                             </icon>
-                                            <h6 class="text-duo text-uppercase">Spory sądowe/mediacje</h6>
+                                            <h6 class="text-uppercase">Spory sądowe/mediacje</h6>
                                             <div class="mb-4">
                                                 <badge type="duo" rounded>reprezentacja</badge>
                                                 <badge type="duo" rounded>doradztwo</badge>
                                                 <badge type="duo" rounded>negocjacje</badge>
                                             </div>
-                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_sad = true">więcej</base-button>
+                                            <base-button type="Secoundary" size="sm" class="duo_btn mt-auto" @click="modals.modal_sad = true">więcej</base-button>
                                         </div>
                                     </div>
                                 </div>
@@ -56,13 +56,13 @@
                                         <div class="card-body py-5 d-flex flex-column justify-content-center">
                                             <icon name="fa fa-money" type="duo" size="lg" rounded class="mb-4 align-self-center">
                                             </icon>
-                                            <h6 class="text-duo text-uppercase">Spory konsumentów z podmiotami rynku finansowego</h6>
+                                            <h6 class="text-uppercase">Spory konsumentów z podmiotami rynku finansowego</h6>
                                             <div class="mb-4">
                                                 <badge type="duo" rounded>analiza</badge>
                                                 <badge type="duo" rounded>wsparcie</badge>
                                                 <badge type="duo" rounded>reprezentacja</badge>
                                             </div>
-                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_konsument = true">więcej</base-button>
+                                            <base-button type="Secoundary" size="sm" class="duo_btn mt-auto" @click="modals.modal_konsument = true">więcej</base-button>
                                         </div>
                                     </div>
                                 </div>
@@ -71,13 +71,13 @@
                                         <div class="card-body py-5 d-flex flex-column justify-content-center">
                                             <icon name="fa fa-exclamation-triangle" type="duo" size="lg" rounded class="mb-4 align-self-center">
                                             </icon>
-                                            <h6 class="text-duo text-uppercase">Prawo karne</h6>
+                                            <h6 class="text-uppercase">Prawo karne</h6>
                                             <div class="mb-4">
                                                 <badge type="duo" rounded>reprezentacja</badge>
                                                 <badge type="duo" rounded>doradztwo</badge>
                                                 <badge type="duo" rounded>natychmiastowe działanie</badge>
                                             </div>
-                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_karne = true">więcej</base-button>
+                                            <base-button type="Secoundary" size="sm" class="duo_btn mt-auto" @click="modals.modal_karne = true">więcej</base-button>
                                         </div>
                                     </div>
                                 </div>
@@ -97,13 +97,13 @@
                                         <div class="card-body py-5 d-flex flex-column justify-content-center">
                                             <icon name="fa fa-building" type="duo" size="lg" rounded class="mb-4 align-self-center">
                                             </icon>
-                                            <h6 class="text-duo text-uppercase">Obsługa korporacyjna przedsiębiorstw</h6>
+                                            <h6 class="text-uppercase">Obsługa korporacyjna przedsiębiorstw</h6>
                                             <div class="mb-4">
                                                 <badge type="duo" rounded>rejestracja</badge>
                                                 <badge type="duo" rounded>dokumentacja wewnętrzna</badge>
                                                 <badge type="duo" rounded>reprezentacja</badge>
                                             </div>
-                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_korp = true">więcej</base-button>
+                                            <base-button type="Secoundary" size="sm" class="duo_btn mt-auto" @click="modals.modal_korp = true">więcej</base-button>
                                         </div>
                                     </div>
                                 </div>
@@ -112,13 +112,13 @@
                                         <div class="card-body py-5 d-flex flex-column justify-content-center">
                                             <icon name="fa fa-line-chart" type="duo" size="lg" rounded class="mb-4 align-self-center">
                                             </icon>
-                                            <h6 class="text-duo text-uppercase">Prawo gospodarcze</h6>
+                                            <h6 class="text-uppercase">Prawo gospodarcze</h6>
                                             <div class="mb-4">
                                                 <badge type="duo" rounded>reprezentacja</badge>
                                                 <badge type="duo" rounded>umowy</badge>
                                                 <badge type="duo" rounded>opinie prawne</badge>
                                             </div>
-                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_gosp = true">więcej</base-button>
+                                            <base-button type="Secoundary" size="sm" class="duo_btn mt-auto" @click="modals.modal_gosp = true">więcej</base-button>
                                         </div>
                                     </div>
                                 </div>
@@ -127,13 +127,13 @@
                                         <div class="card-body py-5 d-flex flex-column justify-content-center">
                                             <icon name="ni ni-books" type="duo" size="lg" rounded class="mb-4 align-self-center">
                                             </icon>
-                                            <h6 class="text-duo text-uppercase">Prawo upadłościowe i restrukturyzacyjne</h6>
+                                            <h6 class="text-uppercase">Prawo upadłościowe i restrukturyzacyjne</h6>
                                             <div class="mb-4">
                                                 <badge type="duo" rounded>wnioski</badge>
                                                 <badge type="duo" rounded>zgłoszenia</badge>
                                                 <badge type="duo" rounded>reprezentacja</badge>
                                             </div>
-                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_upad = true">więcej</base-button>
+                                            <base-button type="Secoundary" size="sm" class="duo_btn mt-auto" @click="modals.modal_upad = true">więcej</base-button>
                                         </div>
                                     </div>
                                 </div>
@@ -154,13 +154,13 @@
                                         <div class="card-body py-5 d-flex flex-column justify-content-center">
                                             <icon name="fa fa-male" type="duo" size="lg" rounded class="mb-4 align-self-center">
                                             </icon>
-                                            <h6 class="text-duo text-uppercase">Ochrona dóbr osobistych</h6>
+                                            <h6 class="text-uppercase">Ochrona dóbr osobistych</h6>
                                             <div class="mb-4">
                                                 <badge type="duo" rounded>doradztwo</badge>
                                                 <badge type="duo" rounded>reprezentacja</badge>
                                                 <badge type="duo" rounded>analiza</badge>
                                             </div>
-                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_dobr = true">więcej</base-button>
+                                            <base-button type="Secoundary" size="sm" class="duo_btn mt-auto" @click="modals.modal_dobr = true">więcej</base-button>
                                         </div>
                                     </div>
                                 </div>
@@ -169,13 +169,13 @@
                                         <div class="card-body py-5 d-flex flex-column justify-content-center">
                                             <icon name="fa fa-file-text" type="duo" size="lg" rounded class="mb-4 align-self-center">
                                             </icon>
-                                            <h6 class="text-duo text-uppercase">Prawo pracy</h6>
+                                            <h6 class="text-uppercase">Prawo pracy</h6>
                                             <div class="mb-4">
                                                 <badge type="duo" rounded>reprezentacja</badge>
                                                 <badge type="duo" rounded>umowy</badge>
                                                 <badge type="duo" rounded>doradztwo</badge>
                                             </div>
-                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_pracy = true">więcej</base-button>
+                                            <base-button type="Secoundary" size="sm" class="duo_btn mt-auto" @click="modals.modal_pracy = true">więcej</base-button>
                                         </div>
                                     </div>
                                 </div>
@@ -184,13 +184,13 @@
                                         <div class="card-body py-5 d-flex flex-column justify-content-center">
                                             <icon name="fa fa-university" type="duo" size="lg" rounded class="mb-4 align-self-center">
                                             </icon>
-                                            <h6 class="text-duo text-uppercase">Prawo budowlane</h6>
+                                            <h6 class="text-uppercase">Prawo budowlane</h6>
                                             <div class="mb-4">
                                                 <badge type="duo" rounded>doradztwo</badge>
                                                 <badge type="duo" rounded>umowy</badge>
                                                 <badge type="duo" rounded>rozliczenia</badge>
                                             </div>
-                                            <base-button type="duo" size="sm" class="mt-auto" @click="modals.modal_bud = true">więcej</base-button>
+                                            <base-button type="Secoundary" size="sm" class="duo_btn mt-auto" @click="modals.modal_bud = true">więcej</base-button>
                                         </div>
                                     </div>
                                 </div>
@@ -245,11 +245,10 @@
                     <li>kompleksowa reprezentacja w postępowaniach karnych przed sądami wszystkich instancji i organami ścigania w charakterze obrońcy, jak i pełnomocnika pokrzywdzonego</li>
                     <li>sporządzanie wszelkich pism na etapie postępowania przygotowawczego oraz na etapie postępowania sądowego</li>
                     <li>doradztwo prawne w sprawach karnych, karnych gospodarczych i o wykroczenia</li>
-                    <li>doradztwo w zakresie compliance</li>
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_karne = false">Zamknij
+                    <base-button type="Secoundary" class="duo_btn ml-auto" @click="modals.modal_karne = false">Zamknij
                     </base-button>
                 </template>
             </modal>
@@ -263,7 +262,7 @@
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_sad = false">Zamknij
+                    <base-button type="Secoundary" class="duo_btn ml-auto" @click="modals.modal_sad = false">Zamknij
                     </base-button>
                 </template>
             </modal>
@@ -276,7 +275,7 @@
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_konsument = false">Zamknij
+                    <base-button type="Secoundary" class="duo_btn ml-auto" @click="modals.modal_konsument = false">Zamknij
                     </base-button>
                 </template>
             </modal>
@@ -290,7 +289,7 @@
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_korp = false">Zamknij
+                    <base-button type="Secoundary" class="duo_btn ml-auto" @click="modals.modal_korp = false">Zamknij
                     </base-button>
                 </template>
             </modal>
@@ -302,7 +301,7 @@
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_gosp = false">Zamknij
+                    <base-button type="Secoundary" class="duo_btn ml-auto" @click="modals.modal_gosp = false">Zamknij
                     </base-button>
                 </template>
             </modal>
@@ -318,7 +317,7 @@
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_upad = false">Zamknij
+                    <base-button type="Secoundary" class="duo_btn ml-auto" @click="modals.modal_upad = false">Zamknij
                     </base-button>
                 </template>
             </modal>
@@ -330,7 +329,7 @@
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_dobr = false">Zamknij
+                    <base-button type="Secoundary" class="duo_btn ml-auto" @click="modals.modal_dobr = false">Zamknij
                     </base-button>
                 </template>
             </modal>
@@ -344,7 +343,7 @@
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_pracy = false">Zamknij
+                    <base-button type="Secoundary" class="duo_btn ml-auto" @click="modals.modal_pracy = false">Zamknij
                     </base-button>
                 </template>
             </modal>
@@ -360,7 +359,7 @@
                 </ul>
 
                 <template slot="footer">
-                    <base-button type="duo" class="ml-auto" @click="modals.modal_bud = false">Zamknij
+                    <base-button type="Secoundary" class="duo_btn ml-auto" @click="modals.modal_bud = false">Zamknij
                     </base-button>
                 </template>
             </modal>
