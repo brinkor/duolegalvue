@@ -56,7 +56,7 @@
                                         <div class="card-body py-5 d-flex flex-column justify-content-center">
                                             <icon name="fa fa-money" type="duo" size="lg" rounded class="mb-4 align-self-center">
                                             </icon>
-                                            <h6 class="text-uppercase">Spory konsumentów z podmiotami rynku finansowego</h6>
+                                            <h6 class="text-uppercase">spory frankowe</h6>
                                             <div class="mb-4">
                                                 <badge type="duo" rounded>analiza</badge>
                                                 <badge type="duo" rounded>wsparcie</badge>
@@ -267,11 +267,10 @@
                 </template>
             </modal>
             <modal :show.sync="modals.modal_konsument">
-                <h6 slot="header" class="modal-title" id="modal-title-default">Spory konsumentów z podmiotami rynku finansowego</h6>
+                <h6 slot="header" class="modal-title" id="modal-title-default">Tzw. "spory frankowe"</h6>
                 <ul>
-                    <li>reprezentacja w postępowaniach sądowych konsumentów z bankami o roszczenia wynikające z umów kredytów powiązanych z kursem waluty obcej, w tym w szczególności tzw. kredyty frankowe</li>
+                    <li>reprezentacja w postępowaniach sądowych o roszczenia wynikające z umów kredytów powiązanych z kursem waluty obcej, w tym w szczególności tzw. kredyty frankowe</li>
                     <li>analiza dokumentacji kredytowej</li>
-                    <li>wsparcie konsumentów na każdym etapie postępowania, zarówno przedsądowego, sądowego oraz postępowania egzekucyjnego</li>
                 </ul>
 
                 <template slot="footer">

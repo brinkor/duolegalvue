@@ -20,14 +20,16 @@
                                 <h5 class="mb-0 font-weight-light">00-105 Warszawa (City Office)</h5>
                             </div>
                         </div>
+                        
                         <div class="row">
                             <div class="col-1">
                                 <i class="fa fa-phone duolegal_color" aria-hidden="true"/>
                             </div>
                             <div class="col-11">
-                                <h5 class="mb-0 font-weight-light">+48 508 599 448</h5>
+                                <h5 class="mb-0 font-weight-light">+48 694 811 344</h5>
                             </div>
                         </div>
+
                         <div class="row">
                             <div class="col-1">
                                 <i class="fa fa-envelope duolegal_color" aria-hidden="true"/>

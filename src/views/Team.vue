@@ -45,7 +45,7 @@
                                     <div class="mt-4 justify-content-center">
                                         <span class="lead duolegal_color">Duo legal</span>
                                         to zespół profesjonalistów, prawników, specjalizujących się w szczególności w prawie gospodarczym i sprawach spornych.
-                                        Posiadamy wiedzę i doświadczenie z zakresu sporów konsumentów z instytucjami finansowymi,
+                                        Posiadamy wiedzę i doświadczenie z zakresu sporów instytucji finansowych z konsumentami,
                                         w szczególności w tzw. „sporach frankowych”, w świadczeniu usług prawnych w zakresie kompleksowej obsługi korporacyjnej małych,
                                         średnich i dużych przedsiębiorców oraz świadczeniu profesjonalnych usług z zakresu prawa karnego,
                                         karnego gospodarczego oraz prawa wykroczeń. Ponadto, nasz zespół oferuje wszechstronne wsparcie w obszarach prawa istotnych dla biznesu.</div>
