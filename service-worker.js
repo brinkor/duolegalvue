@@ -20,7 +20,7 @@ importScripts(
 workbox.core.setCacheNameDetails({prefix: "vue-argon-design-system"});
 
 //Change this value every time before you build
-const LATEST_VERSION = 'v0.1.1'self.addEventListener('activate', (event) => {
+const LATEST_VERSION = 'v0.3'self.addEventListener('activate', (event) => {
   console.log(`%c ${LATEST_VERSION} `, 'background: #ddd; color: #0000ff')
   if (caches) {
     caches.keys().then((arr) => {
